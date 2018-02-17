@@ -78,35 +78,15 @@ Every object must have an identity
 ---
 
 
-@title[Monoid #1]
+@title[Monoid]
 
 #### Monoid
 ### TODO add image for Monoid
 
 
----
+---?code=sample/scala/Monoid.scala&lang=scala&title=Monoid
 
-
-@title[Monoid #2]
-
-```scala
-
-trait Monoid[A] {
-  def combine(x: A, y: A): A
-
-  def empty: A
-}
-
-trait MonoidLaws {
-  def associativeLaw[A](x: A, y: A, z: A)(implicit m: Monoid[A]): Boolean =
-    m.combine(x, m.combine(y, z)) == m.combine(m.combine(x, y), z)
-
-  def identityLaw[A](x: A)(implicit m: Monoid[A]): Boolean =
-    (m.combine(x, m.empty) == x) && (m.combine(m.empty, x) == x)
-}
-
-```
 
 ---?code=sample/scala/Semigroup.scala&lang=scala&title=Semigroup
 
----
+
