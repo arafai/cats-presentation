@@ -90,6 +90,7 @@ Every object must have an identity
 @title[Monoid #2]
 
 ```scala
+
 trait Monoid[A] {
   def combine(x: A, y: A): A
 
@@ -106,5 +107,6 @@ trait MonoidLaws {
 
 ```
 
+---?code=sample/scala/Semigroup.scala&lang=scala&title=Semigroup
 
 ---

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e96f1b6-bd51-4697-9b02-299bf925e12c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/scala/Semigroup.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/go/server.go" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PITCHME.md" afterPath="$PROJECT_DIR$/PITCHME.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,63 +15,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5796875">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PITCHME.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="557">
-                    <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-                    <folding>
-                      <marker date="1518874674069" expanded="true" signature="1400:1448" ph="{...}" />
-                      <marker date="1518874674069" expanded="true" signature="1467:1740" ph="{...}" />
-                    </folding>
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/PITCHME/assets/md/PITCHME.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="395">
-                    <caret line="100" column="40" lean-forward="false" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
-                    <folding>
-                      <marker date="1518875551656" expanded="true" signature="1401:1449" ph="{...}" />
-                      <marker date="1518875551656" expanded="true" signature="1468:1737" ph="{...}" />
-                    </folding>
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="PITCHME.md.bkp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PITCHME.md.bkp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PITCHME.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="440">
+                <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+                <folding>
+                  <marker date="1518878086042" expanded="true" signature="1401:1449" ph="{...}" />
+                  <marker date="1518878086042" expanded="true" signature="1468:1741" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PITCHME/assets/md/PITCHME.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="231">
+                <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="107" selection-end-column="3" />
+                <folding>
+                  <marker date="1518875551656" expanded="true" signature="1401:1449" ph="{...}" />
+                  <marker date="1518875551656" expanded="true" signature="1468:1737" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>note</find>
       <find>Dispa</find>
+      <find>server</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -86,8 +71,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PITCHME.md" />
         <option value="$USER_HOME$/PITCHME/assets/md/PITCHME.md" />
+        <option value="$PROJECT_DIR$/sample/scala/server.go" />
+        <option value="$PROJECT_DIR$/PITCHME.md" />
       </list>
     </option>
   </component>
@@ -111,8 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,11 +104,24 @@
               <item name="cats-presentation" type="b2602c69:ProjectViewProjectNode" />
               <item name="cats-presentation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cats-presentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cats-presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cats-presentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cats-presentation" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,7 +266,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -317,8 +314,8 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1518874674069" expanded="true" signature="1400:1448" ph="{...}" />
-              <marker date="1518874674069" expanded="true" signature="1467:1740" ph="{...}" />
+              <marker date="1518878086042" expanded="true" signature="1401:1449" ph="{...}" />
+              <marker date="1518878086042" expanded="true" signature="1468:1741" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -347,6 +344,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sample/scala/Semigroup.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PITCHME.md.bkp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -367,8 +372,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="395">
-            <caret line="100" column="40" lean-forward="false" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+          <first_editor relative-caret-position="231">
+            <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="107" selection-end-column="3" />
             <folding>
               <marker date="1518875551656" expanded="true" signature="1401:1449" ph="{...}" />
               <marker date="1518875551656" expanded="true" signature="1468:1737" ph="{...}" />
@@ -383,18 +388,18 @@
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="38" />
           <folding>
-            <marker date="1518874674069" expanded="true" signature="1400:1448" ph="{...}" />
-            <marker date="1518874674069" expanded="true" signature="1467:1740" ph="{...}" />
+            <marker date="1518878086042" expanded="true" signature="1401:1449" ph="{...}" />
+            <marker date="1518878086042" expanded="true" signature="1468:1741" ph="{...}" />
           </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="557">
-            <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <first_editor relative-caret-position="440">
+            <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
             <folding>
-              <marker date="1518874674069" expanded="true" signature="1400:1448" ph="{...}" />
-              <marker date="1518874674069" expanded="true" signature="1467:1740" ph="{...}" />
+              <marker date="1518878086042" expanded="true" signature="1401:1449" ph="{...}" />
+              <marker date="1518878086042" expanded="true" signature="1468:1741" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
