@@ -1,7 +1,8 @@
 ## A gentle introduction to category theory using Cats
 
 ---
-@title[Category theory]
+
+@title[JavaScript Block]
 
 ### Abstraction
 ### Composition
