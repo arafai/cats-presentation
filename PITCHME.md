@@ -94,7 +94,7 @@ Every object must have an identity
 
 @title[Functor]
 
-### TODO add image 
+### TODO add image functor 
 
 Note:
 A functor is a mapping between categories. 
@@ -105,9 +105,9 @@ A functor also maps morphisms — it’s a function on morphisms. But it doesn�
 Anything with a map function.
 
 
----
-
 ---?code=src/main/scala/Functor.scala&lang=scala&title=Functor
+
+---
 
 
 ---?code=src/main/scala/Applicative.scala&lang=scala&title=Applicative

@@ -1,6 +1,5 @@
 package example
 
-
 import scala.concurrent.{Await, Future}
 import scala.concurrent.ExecutionContext.Implicits.global
 import models.{AdminLevel, CoordToAdminLevelsMap, Coordinates}
