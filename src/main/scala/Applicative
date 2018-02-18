@@ -26,6 +26,5 @@ trait ApplicativeLaws[F[_]] extends Applicative[F] {
 
 //  fa.product(pure(())) ~ fa
   def rightIdentity[A](fa: F[A]): Boolean =
-    map(product(fa, pure(())))(_._2) == fa
-
+    map(product(fa, pure(())))(_._1) == fa
 }

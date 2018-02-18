@@ -60,7 +60,6 @@ package object NonCats {
 }
 
 
-
 object Cats extends App {
   import cats.Monoid
   import cats.instances.map._

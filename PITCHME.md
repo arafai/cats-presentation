@@ -107,11 +107,12 @@ Anything with a map function.
 
 ---?code=src/main/scala/Functor.scala&lang=scala&title=Functor
 
++++?code=src/main/scala/Applicative.scala&lang=scala&title=Applicative
+
+@[3](Applicative)
+@[4-6](Ap and pure)
+@[7-12](New metods)
+@[17-30](Laws)
+
+
 ---
-
-
----?code=src/main/scala/Applicative.scala&lang=scala&title=Applicative
-
-
-
-
