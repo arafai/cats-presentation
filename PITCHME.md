@@ -84,9 +84,28 @@ Every object must have an identity
 ### TODO add image for Monoid
 
 
----?code=sample/scala/Monoid.scala&lang=scala&title=Monoid
+---?code=src/main/scala/Monoid.scala&lang=scala&title=Monoid
 
 
----?code=sample/scala/Semigroup.scala&lang=scala&title=Semigroup
+---?code=src/main/scala/Semigroup.scala&lang=scala&title=Semigroup
+
+@title[Functor]
+
+### TODO add image 
+
+Note:
+A functor is a mapping between categories. 
+Given two categories, C and D, a functor F maps objects in C to objects in D — it’s a function on objects.
+If a is an object in C, we’ll write its image in D as F a (no parentheses).
+But a category is not just objects — it’s objects and morphisms that connect them.
+A functor also maps morphisms — it’s a function on morphisms. But it doesn’t map morphisms willy-nilly —
+Anything with a map function.
+
+---?code=src/main/scala/Functor.scala&lang=scala&title=Functor
+
+
+---?code=src/main/scala/Applicative.scala&lang=scala&title=Applicative
+
+
 
 
