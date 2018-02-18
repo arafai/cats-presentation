@@ -85,6 +85,7 @@ Every object must have an identity
 
 ---
 
+#### Monoid typeclass
 
 +++?code=src/main/scala/Monoid.scala&lang=scala&title=Monoid
 
@@ -96,7 +97,16 @@ Every object must have an identity
 
 ---
 
----?code=src/main/scala/Semigroup.scala&lang=scala&title=Semigroup
+#### Semigroup typeclass
+
++++?code=src/main/scala/Semigroup.scala&lang=scala&title=Semigroup
+
+@[1-4]
+@[6]
+@[8-10]
+
+
+---
 
 
 @title[Functor]
@@ -111,8 +121,21 @@ But a category is not just objects — it’s objects and morphisms that connect
 A functor also maps morphisms — it’s a function on morphisms. But it doesn’t map morphisms willy-nilly —
 Anything with a map function.
 
+---
 
----?code=src/main/scala/Functor.scala&lang=scala&title=Functor
+#### Functor typeclass
+
++++?code=src/main/scala/Functor.scala&lang=scala&title=Functor
+
+@[1-4]
+@[6]
+@[8-11]
+@[13-15]
+
+
+---
+
+#### Applicative typeclass
 
 +++?code=src/main/scala/Applicative.scala&lang=scala&title=Applicative
 
