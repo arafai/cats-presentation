@@ -83,14 +83,21 @@ Every object must have an identity
 #### Monoid
 ### TODO add image for Monoid
 
+---
 
----?code=src/main/scala/Monoid.scala&lang=scala&title=Monoid
 
++++?code=src/main/scala/Monoid.scala&lang=scala&title=Monoid
 
----?code=src/main/scala/Semigroup.scala&lang=scala&title=Semigroup
+@[1-5]
+@[8]
+@[10-12]
+@[14-15]
 
 
 ---
+
+---?code=src/main/scala/Semigroup.scala&lang=scala&title=Semigroup
+
 
 @title[Functor]
 
@@ -109,10 +116,9 @@ Anything with a map function.
 
 +++?code=src/main/scala/Applicative.scala&lang=scala&title=Applicative
 
-@[3](Applicative)
-@[4-6](Ap and pure)
-@[7-12](New metods)
-@[17-30](Laws)
-
+@[3]
+@[4-6]
+@[7-12]
+@[17-30]
 
 ---
