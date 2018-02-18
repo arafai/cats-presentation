@@ -89,6 +89,9 @@ Every object must have an identity
 
 ---?code=src/main/scala/Semigroup.scala&lang=scala&title=Semigroup
 
+
+---
+
 @title[Functor]
 
 ### TODO add image 
@@ -100,6 +103,9 @@ If a is an object in C, we’ll write its image in D as F a (no parentheses).
 But a category is not just objects — it’s objects and morphisms that connect them.
 A functor also maps morphisms — it’s a function on morphisms. But it doesn’t map morphisms willy-nilly —
 Anything with a map function.
+
+
+---
 
 ---?code=src/main/scala/Functor.scala&lang=scala&title=Functor
 
