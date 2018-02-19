@@ -36,7 +36,7 @@ you have an a morphism  and  then you have an arrow
 
 ---
 
----?image=https://github.com/arafai/cats-presentation/blob/master/assets/image/category.s
+---?image=https://github.com/arafai/cats-presentation/blob/master/assets/image/category.svg
 
 @title[Category theory #3]
 
