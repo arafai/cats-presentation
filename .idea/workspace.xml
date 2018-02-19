@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e82adfb8-4a93-4a41-96d2-c17e362821b7" name="Default" comment="some commit">
+    <list default="true" id="e82adfb8-4a93-4a41-96d2-c17e362821b7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PITCHME.md" afterPath="$PROJECT_DIR$/PITCHME.md" />
     </list>
@@ -26,8 +26,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="165">
-                <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <first_editor relative-caret-position="162">
+                <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -485,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519067642570</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="some commit">
+      <created>1519067815332</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1519067815332</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -742,8 +749,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="165">
-            <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <first_editor relative-caret-position="162">
+            <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

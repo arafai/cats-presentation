@@ -36,10 +36,14 @@ you have an a morphism  and  then you have an arrow
 
 ---
 
+---?image=https://github.com/arafai/cats-presentation/blob/master/assets/image/category.s
 
 @title[Category theory #3]
 
-![Category](http://github.com/arafai/cats-presentation/blob/master/assets/image/category.svg)
+#### TODO add visual representation for objects, morphisms
+
+Note: Identity - every object has a identity
+
 
 ---
 
