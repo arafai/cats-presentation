@@ -86,11 +86,6 @@ String addition ( not symetric )
 @[8-9]
 
 
----
-
-
-@title[Functor]
-
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/functor.svg&size=auto 50%
 
 <span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Functor</b></span>
@@ -101,10 +96,12 @@ Given two categories, C and D, a functor F maps objects in C to objects in D —
 If a is an object in C, we’ll write its image in D as F a (no parentheses).
 But a category is not just objects — it’s objects and morphisms that connect them.
 A functor also maps morphisms — it’s a function on morphisms. But it doesn’t map morphisms willy-nilly —
-Anything with a map function.
+it preserves connections. So if a morphism f in C connects object a to object b, f :: a -> b
+the image of f in D, F f, will connect the image of a to the image of b, F f :: F a -> F b.
 As you can see, a functor preserves the structure of a category: what’s connected in one category will 
-be connected in the other category. But there’s something more to the structure of a category: there’s also 
-the composition of morphisms. 
+be connected in the other category. 
+But there’s something more to the structure of a category: there’s also the composition of morphisms and the 
+identity -  Functors must preserve the structure of a category. 
 
 ---
 
