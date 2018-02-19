@@ -37,21 +37,21 @@ you have an a morphism  and  then you have an arrow
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category.svg&size=auto 50%
 
-<span style="color:gray; font-size:1.7em; color:black; margin-top: -30%;"><b>Category</b></span>
+<span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Category</b></span>
 
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_composition.svg&size=auto 50%
 
-<span style="color:gray; font-size:1.7em; color:black; margin-top: -30%;"><b>Composition</b></span>
+<span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Composition</b></span>
 
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_identity.svg&size=auto 50%
 
-### Identity
+<span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Identity</b></span>
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_associativity.svg&size=auto 50%
 
-### Associativity
+<span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Associativity</b></span>
 
 
 ---
