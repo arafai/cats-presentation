@@ -34,48 +34,17 @@ A category could be considered as a graph, 1 or multiple arrows between 2 nodes,
 All morphism could be considered as a multiplication table (all the information),
 you have an a morphism  and  then you have an arrow
 
----
 
----?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category.svg
-
-@title[Category theory #3]
-
-#### TODO add visual representation for objects, morphisms
-
-Note: Identity - every object has a identity
+---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category.svg&size=auto 60%
 
 
----
+---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_composition.svg&size=auto 60%
 
 
-@title[Category theory laws #1]
-
-#### Composition
-### TODO add image for composition
+---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_identity.svg&size=auto 60%
 
 
----
-
-
-@title[Category theory laws #2]
-
-#### Identity
-### TODO add image for Identity (with composition)
-
-Note: 
-Every object must have an identity  
-
-
----
-
-
-@title[Category theory laws #3]
-
-#### Associativity
-### TODO add image for Associativity
-
-
----
+---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_associativity.svg&size=auto 60%
 
 
 @title[Monoid]
