@@ -34,18 +34,25 @@ A category could be considered as a graph, 1 or multiple arrows between 2 nodes,
 All morphism could be considered as a multiplication table (all the information),
 you have an a morphism  and  then you have an arrow
 
+--- 
 
----?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category.svg&size=auto 60%
+## Category
 
-
----?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_composition.svg&size=auto 60%
-
-
----?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_identity.svg&size=auto 60%
+---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category.svg&size=auto 50%
 
 
----?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_associativity.svg&size=auto 60%
+## Composition
 
+---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_composition.svg&size=auto 50%
+
+
+---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_identity.svg&size=auto 50%
+
+
+---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_associativity.svg&size=auto 50%
+
+
+---
 
 @title[Monoid]
 
