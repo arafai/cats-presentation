@@ -3,9 +3,8 @@ trait Semigroup[A] {
   def combine(x: A, y: A): A
 }
 
-trait SemigroupLaws[A] {
+trait SemigroupLaws[A] extends Semigroup[A] {
 
-  def associativeLaw[A](x: A, y: A, z: A)
-                       (implicit m: Monoid[A]): Boolean =
-    m.combine(x, m.combine(y, z)) == m.combine(m.combine(x, y), z)
+  def associativeLaw[A](x: A, y: A, z: A): Boolean =
+    combine(x, combine(y, z)) == combine(combine(x, y), z)
 }

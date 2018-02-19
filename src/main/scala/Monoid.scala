@@ -5,12 +5,11 @@ trait Monoid[A] {
   def empty: A
 }
 
-trait MonoidLaws {
+trait MonoidLaws[A] extends Monoid[A] {
 
-  def associativeLaw[A](x: A, y: A, z: A)
-                       (implicit m: Monoid[A]): Boolean =
-    m.combine(x, m.combine(y, z)) == m.combine(m.combine(x, y), z)
+  def associativeLaw(x: A, y: A, z: A): Boolean =
+    combine(x, combine(y, z)) == combine(combine(x, y), z)
 
-  def identityLaw[A](x: A)(implicit m: Monoid[A]): Boolean =
-    (m.combine(x, m.empty) == x) && (m.combine(m.empty, x) == x)
+  def identityLaw(x: A): Boolean =
+    (combine(x, empty) == x) && (combine(empty, x) == x)
 }

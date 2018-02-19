@@ -1,6 +1,5 @@
-import cats.Applicative
+trait Applicative[F[_]] extends Functor[F[_]]{
 
-trait Applicative[F[_]] extends Functor[F] {
   def ap[A, B](ff: F[A => B])(fa: F[A]): F[B]
 
   def pure[A](a: A): F[A]
@@ -13,18 +12,14 @@ trait Applicative[F[_]] extends Functor[F] {
   }
 }
 
-
 trait ApplicativeLaws[F[_]] extends Applicative[F] {
 
-//  map(product(fa, pure(())))(_._2) == fa
   def associativity[A, B, C](fa: F[A], fb: F[B], fc: F[C]): Boolean =
     product(product(fa, fb), fc) == product(fa, product(fb, fc))
 
-//  pure(()).product(fa) ~ fa
   def leftIdentity[A](fa: F[A]): Boolean =
     map(product(pure(()), fa))(_._2) == fa
 
-//  fa.product(pure(())) ~ fa
   def rightIdentity[A](fa: F[A]): Boolean =
     map(product(fa, pure(())))(_._1) == fa
 }

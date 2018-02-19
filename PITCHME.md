@@ -91,8 +91,8 @@ Every object must have an identity
 
 @[1-5]
 @[8]
-@[10-12]
-@[14-15]
+@[10-11]
+@[13-14]
 
 
 ---
@@ -103,7 +103,7 @@ Every object must have an identity
 
 @[1-4]
 @[6]
-@[8-10]
+@[8-9]
 
 
 ---
@@ -129,8 +129,8 @@ Anything with a map function.
 
 @[1-4]
 @[6]
-@[8-11]
-@[13-15]
+@[8-9]
+@[11-12]
 
 
 ---
@@ -139,9 +139,12 @@ Anything with a map function.
 
 +++?code=src/main/scala/Applicative.scala&lang=scala&title=Applicative
 
-@[3]
-@[4-6]
+@[1]
+@[3-5]
 @[7-12]
-@[17-30]
+@[15]
+@[17-18]
+@[20-21]
+@[23-24]
 
 ---
