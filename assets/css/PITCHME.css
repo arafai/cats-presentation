@@ -92,6 +92,6 @@ html:-moz-full-screen-ancestor {
 .gp-download { margin-left: 10px; }
 
 
-body .reveal span.top-span {
+body span.top-span {
     margin-top: -30%;
 }
