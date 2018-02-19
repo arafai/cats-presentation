@@ -35,7 +35,7 @@ All morphism could be considered as a multiplication table (all the information)
 you have an a morphism  and  then you have an arrow
 
 
----
+---?image=https://drive.google.com/open?id=14tdiQXCcPMIGmTnC_69N5NyCrBbW9K8g
 
 
 @title[Category theory #3]
@@ -83,6 +83,10 @@ Every object must have an identity
 #### Monoid
 ### TODO add image for Monoid
 
+Note:
+Addition, multiplication
+String addition ( not symetric )
+
 ---
 
 #### Monoid typeclass
@@ -120,6 +124,9 @@ If a is an object in C, we’ll write its image in D as F a (no parentheses).
 But a category is not just objects — it’s objects and morphisms that connect them.
 A functor also maps morphisms — it’s a function on morphisms. But it doesn’t map morphisms willy-nilly —
 Anything with a map function.
+As you can see, a functor preserves the structure of a category: what’s connected in one category will 
+be connected in the other category. But there’s something more to the structure of a category: there’s also 
+the composition of morphisms. 
 
 ---
 

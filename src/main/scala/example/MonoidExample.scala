@@ -61,6 +61,7 @@ package object NonCats {
 
 
 object Cats extends App {
+
   import cats.Monoid
   import cats.instances.map._
   import cats.instances.option._
@@ -70,28 +71,29 @@ object Cats extends App {
   import cats.syntax.semigroup._
   import cats.syntax.foldable._
 
-  implicit val adminLevelMonoid: Monoid[AdminLevel] = new Monoid[AdminLevel] {
-    override def combine(x: AdminLevel, y: AdminLevel) =
-      AdminLevel(
-        level1 = x.level1 |+| y.level1,
-        level2 = x.level2 |+| y.level2
-      )
+  implicit val adminLevelMonoid: Monoid[AdminLevel] =
+    new Monoid[AdminLevel] {
+      override def combine(x: AdminLevel, y: AdminLevel) =
+        AdminLevel(
+          level1 = x.level1 |+| y.level1,
+          level2 = x.level2 |+| y.level2
+        )
 
-    override def empty = AdminLevel()
-  }
+      override def empty = AdminLevel()
+    }
 
   def fetchGeoLocation(batches: Vector[Future[Option[CoordToAdminLevelsMap]]])
                       (implicit monoidA: Monoid[AdminLevel],
                        monoidF: Monoid[Future[Option[CoordToAdminLevelsMap]]]): Future[CoordToAdminLevelsMap] = {
 
 
-//
-//    val batchResultFuture: Future[Vector[Option[CoordToAdminLevelsMap]]] =
-//      Future.sequence(batches)
-//
-//    batchResultFuture.map { data: Vector[Option[CoordToAdminLevelsMap]] =>
-//      data.flatten.foldLeft(monoidM.empty)(_ |+| _)
-//    }
+    //
+    //    val batchResultFuture: Future[Vector[Option[CoordToAdminLevelsMap]]] =
+    //      Future.sequence(batches)
+    //
+    //    batchResultFuture.map { data: Vector[Option[CoordToAdminLevelsMap]] =>
+    //      data.flatten.foldLeft(monoidM.empty)(_ |+| _)
+    //    }
 
     batches.combineAll.map(_.getOrElse(Map.empty))
   }
