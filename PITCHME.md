@@ -34,7 +34,7 @@ A category could be considered as a graph, 1 or multiple arrows between 2 nodes,
 All morphism could be considered as a multiplication table (all the information),
 you have an a morphism  and  then you have an arrow
 
----?image=https://github.com/arafai/cats-presentation/blob/master/assets/image/category.svg
+---?image=http://github.com/arafai/cats-presentation/blob/master/assets/image/category.svg
 
 
 @title[Category theory #3]
