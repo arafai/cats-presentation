@@ -34,22 +34,24 @@ A category could be considered as a graph, 1 or multiple arrows between 2 nodes,
 All morphism could be considered as a multiplication table (all the information),
 you have an a morphism  and  then you have an arrow
 
---- 
-
-## Category
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category.svg&size=auto 50%
 
+<span class="top_span" style="color:gray; font-size:1.7em"><b>Category</b></span>
 
-## Composition
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_composition.svg&size=auto 50%
+
+<span class="top_span" style="color:gray; font-size:1.7em"><b>Composition</b></span>
 
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_identity.svg&size=auto 50%
 
+### Identity
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_associativity.svg&size=auto 50%
+
+### Associativity
 
 
 ---
