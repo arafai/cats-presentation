@@ -54,16 +54,14 @@ you have an a morphism  and  then you have an arrow
 <span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Associativity</b></span>
 
 
----
+---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/monoid.svg&size=auto 50%
 
-@title[Monoid]
-
-#### Monoid
-### TODO add image for Monoid
+<span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Monoid</b></span>
 
 Note:
 Addition, multiplication
 String addition ( not symetric )
+
 
 ---
 
@@ -93,7 +91,9 @@ String addition ( not symetric )
 
 @title[Functor]
 
-### TODO add image functor 
+---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/functor.svg&size=auto 50%
+
+<span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Functor</b></span>
 
 Note:
 A functor is a mapping between categories. 
