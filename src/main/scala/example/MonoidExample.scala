@@ -82,19 +82,7 @@ object Cats extends App {
       override def empty = AdminLevel()
     }
 
-  def fetchGeoLocation(batches: Vector[Future[Option[CoordToAdminLevelsMap]]])
-                      (implicit monoidA: Monoid[AdminLevel],
-                       monoidF: Monoid[Future[Option[CoordToAdminLevelsMap]]]): Future[CoordToAdminLevelsMap] = {
-
-
-    //
-    //    val batchResultFuture: Future[Vector[Option[CoordToAdminLevelsMap]]] =
-    //      Future.sequence(batches)
-    //
-    //    batchResultFuture.map { data: Vector[Option[CoordToAdminLevelsMap]] =>
-    //      data.flatten.foldLeft(monoidM.empty)(_ |+| _)
-    //    }
-
+  def fetchGeoLocation(batches: Vector[Future[Option[CoordToAdminLevelsMap]]]): Future[CoordToAdminLevelsMap] = {
     batches.combineAll.map(_.getOrElse(Map.empty))
   }
 

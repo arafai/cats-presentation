@@ -1,4 +1,4 @@
-trait Applicative[F[_]] extends Functor[F[_]]{
+trait Applicative[F[_]] extends Functor[F]{
 
   def ap[A, B](ff: F[A => B])(fa: F[A]): F[B]
 

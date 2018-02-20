@@ -144,3 +144,10 @@ identity -  Functors must preserve the structure of a category.
 @[19-20]
 
 ---
+
+# Credits
+
+ [Bartosz Milewski's Programming Cafe](https://bartoszmilewski.com)
+ [Bartosz Milewski's Category theory for the programmer](https://www.youtube.com/watch?v=I8LbkfSSR58&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_)
+ [Cats project](https://typelevel.org/cats/)
+ [Advanced scala with cats](https://underscore.io/training/courses/advanced-scala/)
