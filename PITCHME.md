@@ -145,9 +145,21 @@ identity -  Functors must preserve the structure of a category.
 
 ---
 
+
+---?image=http://adit.io/imgs/functors/recap.png&size=auto 30%
+
+<span style="color:gray; font-size:1.5em; color:black; margin-top: -20%; display:block;">
+    <b> def map[A, B](fa: F[A])(f: A => B): F[B]</b>
+    <b> def ap[A, B](ff: F[A => B])(fa: F[A]): F[B] </b>
+    <b> def flatMap[A, B](value: F[A])(func: A => F[B]): F[B] </b>
+</span>
+
+
+
 # Credits
 
  [Bartosz Milewski's Programming Cafe](https://bartoszmilewski.com)
  [Bartosz Milewski's Category theory for the programmer](https://www.youtube.com/watch?v=I8LbkfSSR58&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_)
  [Cats project](https://typelevel.org/cats/)
  [Advanced scala with cats](https://underscore.io/training/courses/advanced-scala/)
+ [Visual stuff for functors, applicative and monads](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
