@@ -130,3 +130,17 @@ identity -  Functors must preserve the structure of a category.
 @[23-24]
 
 ---
+
+#### Monad typeclass
+
++++?code=src/main/scala/Monad.scala&lang=scala&title=Monad
+
+@[1]
+@[3-5]
+@[7-8]
+@[11]
+@[13-14]
+@[15-17]
+@[19-20]
+
+---
