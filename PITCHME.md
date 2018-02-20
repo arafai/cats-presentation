@@ -148,13 +148,20 @@ identity -  Functors must preserve the structure of a category.
 
 ---?image=http://adit.io/imgs/functors/recap.png&size=auto 30%
 
-<span style="color:gray; font-size:1.5em; color:black; margin-top: -20%; display:block;">
-    <b> def map[A, B](fa: F[A])(f: A => B): F[B]</b>
-    <b> def ap[A, B](ff: F[A => B])(fa: F[A]): F[B] </b>
-    <b> def flatMap[A, B](value: F[A])(func: A => F[B]): F[B] </b>
-</span>
 
+---
 
+```scala
+
+def map[A, B](fa: F[A])(f: A => B): F[B]
+
+def ap[A, B](ff: F[A => B])(fa: F[A]): F[B]
+
+def flatMap[A, B](value: F[A])(func: A => F[B]): F[B]
+
+```
+
+---
 
 # Credits
 
