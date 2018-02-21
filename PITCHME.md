@@ -186,7 +186,7 @@ def flatMap[A, B](value: F[A])(func: A => F[B]): F[B]
 #### Credits
 
  [Bartosz Milewski's Programming Cafe](https://bartoszmilewski.com)
- [Bartosz Milewski's Category theory for programmers](https://www.youtube.com/watch?v=I8LbkfSSR58&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_)
  [Cats project](https://typelevel.org/cats/)
  [Advanced scala with cats](https://underscore.io/training/courses/advanced-scala/)
  [Visual stuff for functors, applicative and monads](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
+ [eed3si9n.com/herding-cats](Herding cats)
