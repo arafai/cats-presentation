@@ -95,13 +95,12 @@ String concatenation ( not commutative )
 @[6]
 @[8-9]
 
+Note:
+Show code after this one
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/functor.svg&size=auto 50%
 
 <span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Functor</b></span>
-
-Note:
-Show code after this one
 
 A functor is a mapping between categories. 
 Given two categories, C and D, a functor F maps objects in C to objects in D — it’s a function on objects.
