@@ -12,10 +12,8 @@
 
 Note:
 Abstraction - getting rid of some unnecessary details => objects become identical
-Composition - arguably, the most important feature
-Identity
+Composition & identity - arguably, the most important features, they define category theory
 
-Composition and identity are the foundation of the category theory
 
 
 ---
@@ -28,11 +26,10 @@ Composition and identity are the foundation of the category theory
 
 Note:
 Category is a bunch of objects + morphisms
-An object - has no property, no structure
+An object - has no property, no structure.
 Morphism - no property except that is has a beginning and an end
 A category could be considered as a graph, 1 or multiple arrows between 2 nodes, both ways
-All morphism could be considered as a multiplication table (all the information),
-you have an a morphism  and  then you have an arrow
+All morphism could be considered as a multiplication table (all the information)
 
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category.svg&size=auto 50%
@@ -53,14 +50,23 @@ you have an a morphism  and  then you have an arrow
 
 <span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Associativity</b></span>
 
+Example of categories: 
+* category with no objects  
+* category with 1 object - Monoid
+* set category
+* orders category  
+* category of types and function between types
+
+---
+
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/monoid.svg&size=auto 50%
 
 <span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Monoid</b></span>
 
 Note:
-Addition, multiplication
-String addition ( not symetric )
+Addition (0 as empty, morphism adding +1, + 2), multiplication
+String concatenation ( not commutative )
 
 
 ---
