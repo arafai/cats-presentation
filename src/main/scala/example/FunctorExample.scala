@@ -13,8 +13,8 @@ object FunctorExample {
 
 
   // functor compose
-  Functor[List].compose[Option].map(listOption)(_ + 1)
   val listOption = List(Some(1), None, Some(2))
+  Functor[List].compose[Option].map(listOption)(_ + 1)
 
   //alternative
   List(Some(1), None, Some(2)).map(_.map(_ + 1))

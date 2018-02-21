@@ -12,7 +12,8 @@
 
 Note:
 Abstraction - getting rid of some unnecessary details => objects become identical
-Composition & identity - arguably, the most important features, they define category theory
+Composition is the essence 
+Composition & identity - arguably they define category theory
 
 
 
@@ -100,6 +101,8 @@ String concatenation ( not commutative )
 <span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Functor</b></span>
 
 Note:
+Show code after this one
+
 A functor is a mapping between categories. 
 Given two categories, C and D, a functor F maps objects in C to objects in D — it’s a function on objects.
 If a is an object in C, we’ll write its image in D as F a (no parentheses).
@@ -124,6 +127,9 @@ identity -  Functors must preserve the structure of a category.
 @[11-12]
 
 
+Note:
+Show code after this one
+
 ---
 
 #### Applicative typeclass
@@ -138,6 +144,9 @@ identity -  Functors must preserve the structure of a category.
 @[20-21]
 @[23-24]
 
+Note:
+Show code after this one
+
 ---
 
 #### Monad typeclass
@@ -151,6 +160,10 @@ identity -  Functors must preserve the structure of a category.
 @[13-14]
 @[15-17]
 @[19-20]
+
+
+Note:
+Show code after this one
 
 
 ---?image=http://adit.io/imgs/functors/recap.png&size=auto 30%
