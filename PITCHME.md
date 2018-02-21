@@ -36,6 +36,8 @@ All morphism could be considered as a multiplication table (all the information)
 
 <span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Category</b></span>
 
+Note:
+The category laws are:
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/category_composition.svg&size=auto 50%
 
@@ -50,14 +52,15 @@ All morphism could be considered as a multiplication table (all the information)
 
 <span style="color:gray; font-size:1.5em; color:black; margin-top: -30%; display:block;"><b>Associativity</b></span>
 
+---
+
+
 Example of categories: 
 * category with no objects  
 * category with 1 object - Monoid
 * set category
 * orders category  
 * category of types and function between types
-
----
 
 
 ---?image=https://raw.githubusercontent.com/arafai/cats-presentation/master/assets/image/monoid.svg&size=auto 50%
